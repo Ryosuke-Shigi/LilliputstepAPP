@@ -1,4 +1,5 @@
-body {
+.homeBackColor {
+    height:100vh;
     background: linear-gradient(180deg, rgb(255, 255, 140) 0%, rgba(255,255,140) 60%, rgb(255, 174, 198) 100%);
 }
 .formBackColor {
@@ -8,20 +9,29 @@ body {
     background-color:rgba(0, 0, 0, 0);
 }
 
-.footer {
-    position: fixed;
-    right: 0;
-    left: 0;
-    bottom:10px;
-    padding:0;
-}
-
-
 .homeBackImage {
-    height:70%;
+    height:77vh;
     background-image: url(../img/home/cat001.JPG);
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.flex-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.container {
+    height:auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 2px;
+    width:100vw;
+    text-align:center;
 }

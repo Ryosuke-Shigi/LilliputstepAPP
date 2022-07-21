@@ -12,8 +12,8 @@
 @endsection
 
 @section('content')
-    <section class="homeBackImage">
-        <div class="hero-body heroHeight">
+    <section class="hero homeBackImage">
+        <div class="hero-body flex-display">
             <div class="container">
                 <h1 class="title">
                     Lilliput Step

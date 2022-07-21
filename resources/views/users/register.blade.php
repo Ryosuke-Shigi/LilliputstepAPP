@@ -14,7 +14,7 @@
 @section('content')
 
         <!-- Form -->
-        <form method="POST" class="box max-width formBackColor" action="{{ url()->current() }}">
+        <form method="POST" class="box formBackColor" action="{{ url()->current() }}">
             @csrf
             <div class="field">
                 <label class="label">Name</label>
